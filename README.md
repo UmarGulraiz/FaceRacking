@@ -26,6 +26,7 @@ v.	Time
 
 vi.	OS
 
+# User Manual 
 
 Steps for user to start attendance module:
 
