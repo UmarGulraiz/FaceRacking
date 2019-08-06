@@ -35,7 +35,7 @@ def faceDetect(frame,img):
     global facecount
     #gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     margin=30
-    cascPath = 'D:/Programs/opencv/build/etc/haarcascades/haarcascade_frontalface_alt.xml'
+    cascPath = 'haarcascade_frontalface_alt.xml'
     faceCascade = cv2.CascadeClassifier(cascPath)
     faces = faceCascade.detectMultiScale(frame)
     faces = faceCascade.detectMultiScale(frame,scaleFactor=1.1,minNeighbors=5,minSize=(30, 30),flags=cv2.CASCADE_SCALE_IMAGE)
@@ -400,13 +400,13 @@ def StartRecognition():
             #s.quit()
     if(sms_var.get()==1):
         print("Sending SMS")
-        client = Client("AC46c4b758dc29b405a46dc64503b86c19", "343b90764bf6d47e559f2fe6e15baa6b")
+        client = Client("", "")
         # change the "from_" number to your Twilio number and the "to" number
         # to the phone number you signed up for Twilio with, or upgrade your
         # account to send SMS to any phone number
-        message = "Dear Parent,\nBelow is the Attendence of your Son/daughter for the course 'Introduction To Machine Learning'\nPresent	: Abdur rehman L1F15BSCS0430\n\n\n\n\n\nTeam FaceRacking\nUniversity Of Central Punjab"
-        client.messages.create(to="+923204690469", 
-                               from_="+18036102865", 
+        message = "Dear Parent,\nBelow is the Attendence of your Son/daughter for the course 'Introduction To Machine Learning'\nPresent	: Name rollno\n\n\n\n\n\nTeam FaceRacking\nUniversity Of Central Punjab"
+        client.messages.create(to="", 
+                               from_="", 
                                body=message)
         print("Done")
 
