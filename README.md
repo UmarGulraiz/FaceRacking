@@ -1,8 +1,6 @@
 # FaceRacking
 Our project is a human tracking system using face recognition. To reduce manpower and save time. Due to insufficient resources, we have just developed an automated system which marks attendance based on facial recognition on real time. By the end of a session our system generates a detailed report of attendance and sends it in the form of email to the owner. This product can be used in many aspects such as Provincial or national assembly attendance or in banks, etc. This product is almost fully human independent and is machine dependent and requires minimum human interaction. This project can be used in many ways. From a manager at building sites keeping track of workers to teachers in class room wasting class time in marking attendance, FaceRacking can be used to reduce manpower and to save time.
 
-# Deployment/Installation Guide
-We will provide complete installation. Also a USB will be provided which contains the interface.
 
 # Pre-requisites:
 
