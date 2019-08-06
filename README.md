@@ -3,25 +3,34 @@ Our project is a human tracking system using face recognition. To reduce manpowe
 
 # Deployment/Installation Guide
 We will provide complete installation. Also a USB will be provided which contains the interface.
-4.0	User Manual
 
 # Pre-requisites:
 
 •	Cameras should be working.
+
 •	There should be a training video.
+
 •	Python should be installed.
+
 •	Following libraries should be installed:
+
 i.	Open CV
+
 ii.	Numpy
+
 iii.	Tensorflow
+
 iv.	PIL
+
 v.	Time
+
 vi.	OS
 
 
 Steps for user to start attendance module:
 
 1-	Open CMD
+
 2-	Move to your working directory
 
 
