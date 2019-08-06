@@ -1,0 +1,8 @@
+<html>
+<body>
+Dear ${PERSON_NAME},<br> 
+Below is the Attendence Report generated For the course "${COURSE}"<br><br>
+${REPORT_DETAIL}<br>
+${SIGNATURE}<br>
+</body>
+</html>
